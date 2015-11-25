@@ -38,6 +38,7 @@ group :tools do
 end
 
 gem 'validates_timeliness'
-gem 'has_vcards'
+# gem 'has_vcards'
+gem 'has_vcards', :path => '../has_vcards'
 # Tagging
 gem 'acts-as-taggable-on', '~> 2.4.1' # API incompatible
