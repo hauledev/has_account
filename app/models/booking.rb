@@ -1,6 +1,6 @@
 class Booking < ActiveRecord::Base
   # Access restrictions
-  attr_accessible :title, :comments, :amount, :value_date, :code
+  attr_accessible :title, :comments, :amount, :value_date, :code, :reservation_number
 
   # Validation
   validates_presence_of :debit_account, :credit_account, :title, :value_date
